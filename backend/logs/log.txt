@@ -1,0 +1,147 @@
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: SolarTech Pvt Ltd
+Product: Solar Panels
+Target Client: Residential Housing Societies
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": [
+   {
+     "product_name": "Solar Panels",
+     "quantity": "Based on the area of the housing society's rooftops",
+     "features": "High efficiency, durable, eco-friendly"
+   }
+ ],
+ "budget_allocation": "50% for initial installation, 30% for maintenance, 20% for monitoring and upgrades",
+ "estimated_cost": "Estimated cost of installation per rooftop: $30,000 - $50,000",
+ "impact_summary": "By installing solar panels, the housing society can reduce electricity bills by up to 50%, decrease their carbon footprint, and contribute to environmental sustainability."
+}
+
+----------------
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: EcoBag Pvt Ltd
+Product: Jute Bags
+Target Client: Retail Stores
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": ["1000 units of small jute bags", "500 units of medium jute bags", "250 units of large jute bags"],
+ "budget_allocation": "Allocate 70% of the budget towards manufacturing and sourcing jute material, 20% towards marketing and branding, and 10% towards logistics and distribution.",
+ "estimated_cost": "The estimated cost for the production of the jute bags is $10,000, marketing and branding costs are $3,000, and logistics and distribution costs are $1,500, totaling $14,500.",
+ "impact_summary": "By using EcoBag's sustainable jute bags, retail stores can reduce their carbon footprint by offering eco-friendly packaging options to their customers. This will help in promoting sustainability and reducing the use of plastic bags in the retail industry." 
+}
+
+----------------
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: EcoBag Pvt Ltd
+Product: Jute Bags
+Target Client: Retail Stores
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": ["Our Eco-friendly Jute Bags in various sizes and styles for retail store use"],
+ "budget_allocation": "50% for production costs, 25% for marketing and distribution, 25% for sales team",
+ "estimated_cost": "Estimated cost for 1000 Jute Bags is $5000",
+ "impact_summary": "By using our Eco-friendly Jute Bags, retail stores can reduce plastic waste, promote sustainability, and attract eco-conscious customers."
+}
+
+----------------
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: EcoBag Pvt Ltd
+Product: Jute Bags
+Target Client: Retail Stores
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": [
+   {
+     "product_name": "Jute Bags",
+     "quantity": "5000 bags",
+     "customization_option": "Retail store logo printing"
+   }
+ ],
+ "budget_allocation": "50% towards production cost, 30% towards customization, 20% towards shipping and logistics",
+ "estimated_cost": "$10,000",
+ "impact_summary": "By switching to EcoBag's jute bags, retail stores can reduce plastic waste, promote sustainability, and appeal to eco-conscious customers. This initiative will also help in reducing the carbon footprint and supporting local communities involved in jute cultivation and production."
+}
+
+----------------
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: EcoBag Pvt Ltd
+Product: Jute Bags
+Target Client: Retail Stores
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": ["Customized jute bags in various sizes and designs"],
+ "budget_allocation": "50% for raw materials, 30% for manufacturing and 20% for marketing",
+ "estimated_cost": "Based on quantity ordered",
+ "impact_summary": "By using our eco-friendly jute bags, retail stores can reduce their use of plastic bags and showcase their commitment to sustainability, attracting environmentally-conscious customers. This will help in reducing plastic waste and promoting a greener environment."
+}
+
+----------------
