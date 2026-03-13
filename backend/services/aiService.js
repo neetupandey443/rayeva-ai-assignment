@@ -10,13 +10,13 @@ Name: ${name}
 Description: ${description}
 Material: ${material}
 
-Return ONLY JSON.
+Return ONLY JSON in this format:
 
 {
-"category":"",
-"subcategory":"",
-"tags":[],
-"sustainability":[]
+ "category": "",
+ "subcategory": "",
+ "tags": [],
+ "sustainability": []
 }
 `;
 
@@ -41,20 +41,28 @@ Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
 }
 );
 
-const text = response.data.choices[0].message.content;
+// AI response text
+let text = response.data.choices[0].message.content;
 
-return text;
+// remove ```json ```
+text = text.replace(/```json/g, "").replace(/```/g, "").trim();
+
+// convert to JSON safely
+const data = JSON.parse(text);
+
+return data;
 
 } catch (error) {
 
 console.log("AI Error:", error.response?.data || error.message);
 
-return JSON.stringify({
-category:"Error",
-subcategory:"",
-tags:[],
-sustainability:[]
-});
+// fallback response
+return {
+category: "Error",
+subcategory: "",
+tags: [],
+sustainability: []
+};
 
 }
 

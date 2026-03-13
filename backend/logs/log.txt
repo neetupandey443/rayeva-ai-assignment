@@ -145,3 +145,57 @@ RESPONSE:
 }
 
 ----------------
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: EcoBag Pvt Ltd
+Product: EcoBag Pvt Ltd
+Target Client: Jute Shopping Bags
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": ["Jute shopping bags made from natural and biodegradable materials"],
+ "budget_allocation": "50% towards sourcing sustainable jute materials, 30% towards manufacturing processes that minimize carbon footprint, 20% towards marketing and distribution",
+ "estimated_cost": "Initial investment of $100,000 for sourcing materials, manufacturing equipment, and marketing activities, with a projected annual cost of $50,000 for operations",
+ "impact_summary": "By partnering with EcoBag Pvt Ltd, your company will be able to offer eco-friendly alternatives to plastic bags, reduce plastic waste, and contribute to sustainability efforts. This will not only improve your brand image but also attract environmentally conscious customers and contribute to a greener future."
+}
+
+----------------
+PROMPT:
+
+Generate a structured B2B sustainability proposal.
+
+Company: EcoBag pvt ltd
+Product: jute shopping Bags
+Target Client: Retail Stores
+
+Return ONLY JSON in this format:
+
+{
+ "product_mix": [],
+ "budget_allocation": "",
+ "estimated_cost": "",
+ "impact_summary": ""
+}
+
+
+RESPONSE:
+{
+ "product_mix": ["Jute shopping bags made from sustainable materials"],
+ "budget_allocation": "50% on raw materials, 20% on production, 20% on marketing, 10% on monitoring and evaluation",
+ "estimated_cost": "$10,000 for initial order of 2000 bags",
+ "impact_summary": "Switching to eco-friendly jute bags will help retail stores reduce their plastic usage, decrease their carbon footprint, and appeal to environmentally conscious customers."
+}
+
+----------------
